@@ -8,8 +8,8 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="relative text-base leading-base">
-      <div className="absolute top-0 w-full h-90 bg-top bg-no-repeat bg-cover bg-[url('/images/bg-header-mobile.png')] opacity-25" />
+    <div className="relative text-base leading-base text-gray-500">
+      <div className="absolute top-0 w-full h-90 bg-top bg-no-repeat bg-cover bg-[url('/images/bg-header-mobile.png')] opacity-40" />
 
       <main className="px-8 py-30">
         <HeroSection />
