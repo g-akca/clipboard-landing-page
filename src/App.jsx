@@ -11,7 +11,7 @@ function App() {
     <div className="relative text-base leading-base text-gray-500">
       <div className="absolute top-0 w-full h-90 bg-top bg-no-repeat bg-cover bg-[url('/images/bg-header-mobile.png')] opacity-40" />
 
-      <main className="px-8 py-30 flex flex-col gap-38">
+      <main className="px-8 pt-30 pb-40 flex flex-col gap-38">
         <HeroSection />
         <SnippetsSection />
         <AccessSection />
