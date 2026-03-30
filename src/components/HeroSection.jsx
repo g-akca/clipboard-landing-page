@@ -1,3 +1,5 @@
+import Button from "./Button";
+
 import logo from "/images/logo.svg";
 
 function HeroSection() {
@@ -12,21 +14,13 @@ function HeroSection() {
         </div>
 
         <div className="flex flex-col gap-6 items-center">
-          <button 
-            type="button" 
-            className="cursor-pointer bg-green-500 w-full max-w-100 h-14 rounded-[28px] inset-shadow-[0_-3px_rgba(0,0,0,0.15)] 
-            text-white font-semibold text-[20px] leading-base tracking-[0.5px]"
-          >
+          <Button className="bg-green-500">
             Download for iOS
-          </button>
+          </Button>
 
-          <button 
-            type="button" 
-            className="cursor-pointer bg-blue-500 w-full max-w-100 h-14 rounded-[28px] inset-shadow-[0_-3px_rgba(0,0,0,0.15)] 
-            text-white font-semibold text-[20px] leading-base tracking-[0.5px]"
-          >
+          <Button className="bg-blue-500">
             Download for Mac
-          </button>
+          </Button>
         </div>
       </div>
     </section>
