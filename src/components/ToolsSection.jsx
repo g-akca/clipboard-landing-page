@@ -30,7 +30,7 @@ function ToolsSection() {
         </div>
 
         <div className="flex flex-col gap-10 items-center">
-          <img src={blacklistIcon} alt="Blacklist icon" />
+          <img src={previewIcon} alt="Preview icon" />
 
           <div className="flex flex-col gap-4">
             <h3 className="font-semibold text-[24px] leading-[125%] tracking-[-0.4px] text-gray-700">Sneak preview</h3>
