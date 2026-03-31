@@ -8,7 +8,7 @@ function SnippetsSection() {
         <p className="tracking-base">Clipboard instantly stores any item you copy in the cloud, meaning you can access your snippets immediately on all your devices. Our Mac and iOS apps will help you organize everything.</p>
       </div>
 
-      <div className="flex flex-col gap-18 items-center tablet:gap-24 desktop:flex-row desktop:text-start desktop:-translate-x-37.5">
+      <div className="flex flex-col gap-18 items-center tablet:gap-24 desktop:flex-row desktop:text-start desktop:-translate-x-38.5">
         <img src={computerImg} alt="Computer image" />
 
         <div className="flex flex-col gap-14 tablet:gap-16 max-w-87.5">
