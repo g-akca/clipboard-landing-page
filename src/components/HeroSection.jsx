@@ -14,11 +14,11 @@ function HeroSection() {
         </div>
 
         <div className="flex flex-col gap-6 items-center">
-          <Button className="bg-green-500">
+          <Button className="bg-green-500 hover:bg-green-300">
             Download for iOS
           </Button>
 
-          <Button className="bg-blue-500">
+          <Button className="bg-blue-500 hover:bg-blue-400">
             Download for Mac
           </Button>
         </div>
