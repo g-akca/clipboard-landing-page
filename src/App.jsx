@@ -11,7 +11,7 @@ function App() {
     <div className="relative text-base leading-base text-gray-500 tablet:text-[20px]">
       <div className="absolute top-0 w-full h-90 bg-top bg-no-repeat bg-cover bg-[url('/images/bg-header-mobile.png')] tablet:bg-[url('/images/bg-header-desktop.png')] opacity-35" />
 
-      <main className="px-8 tablet:px-19 pt-30 tablet:pt-33 pb-40 flex flex-col gap-38">
+      <main className="px-8 tablet:px-19 desktop:px-0 pt-30 tablet:pt-33 pb-40 flex flex-col items-center gap-38">
         <HeroSection />
         <SnippetsSection />
         <AccessSection />
