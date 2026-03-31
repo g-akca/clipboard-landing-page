@@ -10,11 +10,11 @@ function Footer() {
         <img src={logo} alt="Logo image" className="w-13.75" />
 
         <ul className="flex flex-col gap-6 text-center text-[20px] leading-base tracking-base text-gray-700">
-          <li><a href="#">FAQs</a></li>
-          <li><a href="#">Contact Us</a></li>
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Press Kit</a></li>
-          <li><a href="#">Install Guide</a></li>
+          <li><a href="#" className="hover:text-green-500 transition-all">FAQs</a></li>
+          <li><a href="#" className="hover:text-green-500 transition-all">Contact Us</a></li>
+          <li><a href="#" className="hover:text-green-500 transition-all">Privacy Policy</a></li>
+          <li><a href="#" className="hover:text-green-500 transition-all">Press Kit</a></li>
+          <li><a href="#" className="hover:text-green-500 transition-all">Install Guide</a></li>
         </ul>
 
         <div className="flex justify-center items-center gap-10">
