@@ -1,7 +1,8 @@
 import logo from "/images/logo.svg";
-import facebookIcon from "/images/icon-facebook.svg";
-import twitterIcon from "/images/icon-twitter.svg";
-import instagramIcon from "/images/icon-instagram.svg";
+
+import FacebookIcon from "./icons/FacebookIcon";
+import TwitterIcon from "./icons/TwitterIcon";
+import InstagramIcon from "./icons/InstagramIcon";
 
 function Footer() {
   return (
@@ -18,9 +19,9 @@ function Footer() {
         </ul>
 
         <div className="flex justify-center items-center gap-10">
-          <img src={facebookIcon} alt="Facebook icon" className="cursor-pointer" />
-          <img src={twitterIcon} alt="Twitter icon" className="cursor-pointer" />
-          <img src={instagramIcon} alt="Instagram icon" className="cursor-pointer" />
+          <FacebookIcon className="cursor-pointer transition-all text-gray-700 hover:text-green-500" />
+          <TwitterIcon className="cursor-pointer transition-all text-gray-700 hover:text-green-500" />
+          <InstagramIcon className="cursor-pointer transition-all text-gray-700 hover:text-green-500" />
         </div>
       </div>
     </footer>
