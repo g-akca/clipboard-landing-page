@@ -10,9 +10,9 @@ function ToolsSection() {
         <p className="tracking-base">We’ve got the tools to boost your productivity.</p>
       </div>
 
-      <div className="flex flex-col gap-16 tablet:gap-12 items-center">
-        <div className="flex flex-col gap-10 items-center max-w-98">
-          <img src={blacklistIcon} alt="Blacklist icon" />
+      <div className="flex flex-col gap-16 tablet:gap-12 items-center desktop:flex-row desktop:items-start desktop:gap-8">
+        <div className="flex flex-col gap-10 items-center max-w-98 desktop:max-w-87.5">
+          <img src={blacklistIcon} alt="Blacklist icon" className="tablet:h-10" />
 
           <div className="flex flex-col gap-4">
             <h3 className="font-semibold text-[24px] leading-[125%] tracking-[-0.4px] text-gray-700">Create blacklists</h3>
@@ -20,8 +20,8 @@ function ToolsSection() {
           </div>
         </div>
 
-        <div className="flex flex-col gap-10 items-center max-w-98">
-          <img src={textIcon} alt="Text icon" />
+        <div className="flex flex-col gap-10 items-center max-w-98 desktop:max-w-87.5">
+          <img src={textIcon} alt="Text icon" className="tablet:h-10" />
 
           <div className="flex flex-col gap-4">
             <h3 className="font-semibold text-[24px] leading-[125%] tracking-[-0.4px] text-gray-700">Plain text snippets</h3>
@@ -29,8 +29,8 @@ function ToolsSection() {
           </div>
         </div>
 
-        <div className="flex flex-col gap-10 items-center max-w-98">
-          <img src={previewIcon} alt="Preview icon" />
+        <div className="flex flex-col gap-10 items-center max-w-98 desktop:max-w-87.5">
+          <img src={previewIcon} alt="Preview icon" className="tablet:h-10" />
 
           <div className="flex flex-col gap-4">
             <h3 className="font-semibold text-[24px] leading-[125%] tracking-[-0.4px] text-gray-700">Sneak preview</h3>
